@@ -102,10 +102,10 @@ app.use((req, res) => {
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`
-🚀 Smart Campus Backend running!
-📡 Port: ${PORT}
-🌐 API: http://localhost:${PORT}/api
-🔌 Socket.io: Active
+  Smart Campus Backend running!
+  Port: ${PORT}
+  API: http://localhost:${PORT}/api
+  Socket.io: Active
   `);
 });
 
