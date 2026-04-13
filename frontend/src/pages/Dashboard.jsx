@@ -8,6 +8,7 @@ import {
   TrendingUp, Users, FileText, AlertCircle, CheckCircle2
 } from 'lucide-react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
+import ThemeToggle from "../components/common/ThemeToggle";
 
 export default function Dashboard() {
   const { user } = useAuth()
@@ -108,6 +109,7 @@ export default function Dashboard() {
           </p>
         </div>
         <div style={{ display: 'flex', gap: 8 }}>
+          <div><ThemeToggle /></div>
           <span style={{
             display: 'flex', alignItems: 'center', gap: 6,
             padding: '6px 14px', borderRadius: 20,

@@ -27,6 +27,32 @@
   --font-body: 'DM Sans', sans-serif;
 }
 
+/* 🌞 Light Theme */
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #eef2f7;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --border: #e2e8f0;
+  --border-light: #cbd5e1;
+
+  --accent: #3b82f6;
+  --accent-2: #06b6d4;
+  --accent-glow: rgba(59, 130, 246, 0.25);
+
+  --accent-green: #16a34a;
+  --accent-amber: #eab308;
+  --accent-red: #dc2626;
+  --accent-cyan: #0891b2;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+
+  --shadow: 0 4px 20px rgba(0,0,0,0.08);
+  --shadow-glow: 0 0 30px rgba(59,130,246,0.15);
+}
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; }
