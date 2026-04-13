@@ -61,7 +61,7 @@ export default function Sidebar({ isOpen, onClose }) {
               <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15 }}>
                 Smart Campus
               </div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>By team</div>
+              <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>NIMS CAMPUS</div>
             </div>
           </div>
         </div>
